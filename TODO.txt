@@ -1,0 +1,21 @@
+1. 將puzzle修改成class
+原本puzzle資料為[puzzle['p_h'], puzzle['p_w'], puzzle['puzzle_blocks'], 0, 0]
+
+class puzzle()
+    def __init__(height, width, puzzle_blocks, offset_h, offset_w):
+        self.height = height
+        self.width = width
+        self.puzzle_blocks = puzzle_blocks
+        self.offset_h = offset_h
+        self.offset_w = offset_w
+
+
+2. 註解寫完整, 並全數改成英文
+
+3. GUI化 使用pyqt
+
+4. 寫Readme內容
+
+
+?
+1. puzzle_hash是不是不適合使用hash這個字詞命名
